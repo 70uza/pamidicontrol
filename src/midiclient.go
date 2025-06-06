@@ -121,7 +121,7 @@ func (c *MidiClient) Run() {
 						}
 					}
 				}
-				log.Info().Msgf("Saw ControlChange input on Channel %d, Controller %d, with value %d", midiMessage.Channel(), midiMessage.Controller(), midiMessage.Value())
+				// log.Info().Msgf("Saw ControlChange input on Channel %d, Controller %d, with value %d", midiMessage.Channel(), midiMessage.Controller(), midiMessage.Value())
 			}
 		}),
 	)
