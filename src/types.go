@@ -35,7 +35,7 @@ type MidiAction struct {
 	Channel    uint8
 	Controller uint8
 
-	MaxInputValue uint
+	MaxInputValue int
 
 	Action PulseAudioAction
 }
